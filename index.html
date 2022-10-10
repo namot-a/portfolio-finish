@@ -12,7 +12,7 @@
       rel="stylesheet"
     />
   </head>
-  <!--Test-->
+
   <body>
     <header class="header" id="header">
       <nav class="nav container">
@@ -20,7 +20,7 @@
         <div class="nav__menu">
           <ul class="nav__list">
             <li class="nav__item">
-              <a href="#home" class="nav__link">
+              <a href="#home" class="nav__link active-link">
                 <i class="bx bx-home"></i>
               </a>
             </li>
@@ -46,9 +46,47 @@
             </li>
           </ul>
         </div>
-        <i class='bx bx-moon change-theme' id="theme-button" ></i>
+        <i class="bx bx-moon change-theme" id="theme-button"></i>
       </nav>
     </header>
+
+    <main class="main">
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__date">
+            <span class="home__greeting">Приветствую!</span>
+            <h1 class="home__name">namot</h1>
+            <h3 class="home__education">Frontend Developer</h3>
+
+            <div class="home__buttons">
+              <a href="" class="button button-ghost"> Скачать </a>
+              <a href="#about" class="button">Обо мне</a>
+            </div>
+          </div>
+          <div class="home__handle">
+            <img src="img/perfil.png" alt="" class="home__img">
+          </div>
+
+          <div class="home__social">
+            <a href="" class="home__social-link">
+              
+            </a>
+            <a href="" class="home__social-link">
+
+            </a>
+            <a href="" class="home__social-link">
+
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="about section" id="about"></section>
+
+      <section class="skills section" id="skills"></section>
+
+      <section class="services section" id="services"></section>
+    </main>
 
     <script src="./js/main.js"></script>
   </body>

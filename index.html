@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>portfolio namot`a</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
     <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
@@ -14,6 +15,7 @@
   </head>
 
   <body>
+    <!--====================HEADER=====================-->
     <header class="header" id="header">
       <nav class="nav container">
         <a href="#" class="nav__logo">namot</a>
@@ -36,7 +38,7 @@
             </li>
             <li class="nav__item">
               <a href="#work" class="nav__link">
-                <i class="bx bx-cabinet"></i>
+                <i class="bx bx-briefcase"></i>
               </a>
             </li>
             <li class="nav__item">
@@ -51,6 +53,7 @@
     </header>
 
     <main class="main">
+      <!--====================HOME=====================-->
       <section class="home section" id="home">
         <div class="home__container container grid">
           <div class="home__date">
@@ -68,10 +71,10 @@
           </div>
 
           <div class="home__social">
-            <a href="" class="home__social-link">
+            <a href="" target="_blank" class="home__social-link">
               <i class="bx bxl-github"></i>
             </a>
-            <a href="" class="home__social-link">
+            <a href="" target="_blank" class="home__social-link">
               <i class="bx bxl-telegram"></i>
             </a>
           </div>
@@ -81,41 +84,44 @@
         </div>
       </section>
 
-      <section class="about section" id="about"></section>
-      <span class="section__subtitle">My Intro</span>
-      <h2 class="section__title">About Me</h2>
+      <!--====================ABOUT=====================-->
+      <section class="about section" id="about">
+        <span class="section__subtitle">My Intro</span>
+        <h2 class="section__title">About Me</h2>
 
-      <div class="about__container container grid">
-        <img src="img/about.jpg" alt="" class="about__img" />
+        <div class="about__container container grid">
+          <img src="img/about.jpg" alt="" class="about__img" />
 
-        <div class="about__data">
-          <div class="about__info">
-            <div class="about__box">
-              <i class="bx bx-award about__icon"></i>
-              <h3 class="about__title">Experience</h3>
-              <span class="about__subtitle">1 Years Working</span>
-            </div>
-            <div class="about__box">
-              <i class="bx bx-briefcase about__icon"></i>
-              <h3 class="about__title">Completed</h3>
-              <span class="about__subtitle">15 + Project</span>
-            </div>
+          <div class="about__data">
+            <div class="about__info">
+              <div class="about__box">
+                <i class="bx bx-award about__icon"></i>
+                <h3 class="about__title">Experience</h3>
+                <span class="about__subtitle">1 Years Working</span>
+              </div>
+              <div class="about__box">
+                <i class="bx bx-briefcase about__icon"></i>
+                <h3 class="about__title">Completed</h3>
+                <span class="about__subtitle">15 + Project</span>
+              </div>
 
-            <div class="about__box">
-              <i class="bx bx-message-rounded-dots about__icon"></i>
-              <h3 class="about__title">Message</h3>
-              <span class="about__subtitle">Online 24/7</span>
+              <div class="about__box">
+                <i class="bx bx-message-rounded-dots about__icon"></i>
+                <h3 class="about__title">Message</h3>
+                <span class="about__subtitle">Online 24/7</span>
+              </div>
             </div>
+            <p class="about__description">
+              Frontend developer, I crate web pages with UI / UX user interface,
+              I have years of experience and many are happe with the projects
+              carried out.
+            </p>
+            <a href="#contact" class="button">Contact Me</a>
           </div>
-          <p class="about__description">
-            Frontend developer, I crate web pages with UI / UX user interface, I
-            have years of experience and many are happe with the projects
-            carried out.
-          </p>
-          <a href="#contact" class="button">Contact Me</a>
         </div>
-      </div>
+      </section>
 
+      <!--====================SKILLS=====================-->
       <section class="skills section" id="skills">
         <span class="section__subtitle">My abilities</span>
         <h2 class="section__title">My Experience</h2>
@@ -222,7 +228,8 @@
         </div>
       </section>
 
-      <section class="services section" id="services">
+      <!--====================SERVICES=====================-->
+      <section class="services section">
         <span class="section__subtitle">My Services</span>
         <h2 class="section__title">What I Offer</h2>
         <div class="services__container container grid">
@@ -292,7 +299,9 @@
                   </li>
                   <li class="services__modal-item">
                     <i class="bx bx-check services__modal-icon"></i>
-                    <p class="services__modal-info">I position your company brand</p>
+                    <p class="services__modal-info">
+                      I position your company brand
+                    </p>
                   </li>
                 </ul>
               </div>
@@ -327,7 +336,9 @@
                   </li>
                   <li class="services__modal-item">
                     <i class="bx bx-check services__modal-icon"></i>
-                    <p class="services__modal-info">I position your company brand</p>
+                    <p class="services__modal-info">
+                      I position your company brand
+                    </p>
                   </li>
                 </ul>
               </div>
@@ -336,8 +347,229 @@
         </div>
       </section>
 
-      <section class="work section" id="work"></section>
+      <!--====================WORK=====================-->
+      <section class="work section" id="work">
+        <span class="section__subtitle">My Portfolio</span>
+        <h2 class="section__title">Recent Works</h2>
+
+        <div class="work__filters">
+          <span class="work__item active-work" data-filter="all">All</span>
+          <span class="work__item" data-filter=".web">Web</span>
+          <span class="work__item" data-filter=".movil">Movil</span>
+          <span class="work__item" data-filter=".design">Design</span>
+        </div>
+
+        <div class="work__container container grid">
+          <div class="work__card mix web">
+            <img src="img/work1.jpg" alt="" class="work__img" />
+
+            <h3 class="work__title">Web Design</h3>
+
+            <a href="#" class="work__button">
+              Demo <i class="bx bx-right-arrow-alt work__icon"></i>
+            </a>
+          </div>
+
+          <div class="work__card mix movil">
+            <img src="img/work2.jpg" alt="" class="work__img" />
+
+            <h3 class="work__title">App Movil</h3>
+
+            <a href="#" class="work__button">
+              Demo <i class="bx bx-right-arrow-alt work__icon"></i>
+            </a>
+          </div>
+
+          <div class="work__card mix design">
+            <img src="img/work3.jpg" alt="" class="work__img" />
+
+            <h3 class="work__title">Brand Design</h3>
+
+            <a href="#" class="work__button">
+              Demo <i class="bx bx-right-arrow-alt work__icon"></i>
+            </a>
+          </div>
+
+          <div class="work__card mix web">
+            <img src="img/work4.jpg" alt="" class="work__img" />
+
+            <h3 class="work__title">Web Design</h3>
+
+            <a href="#" class="work__button">
+              Demo <i class="bx bx-right-arrow-alt work__icon"></i>
+            </a>
+          </div>
+
+          <div class="work__card mix movil">
+            <img src="img/work5.jpg" alt="" class="work__img" />
+
+            <h3 class="work__title">App Movil</h3>
+
+            <a href="#" class="work__button">
+              Demo <i class="bx bx-right-arrow-alt work__icon"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!--====================TESTIMONIALS=====================-->
+      <section class="testimonials section">
+        <span class="section__subtitle">My clients say</span>
+        <h2 class="section__title">Testimonials</h2>
+
+        <div class="testimonials__container container swiper">
+          <div class="swiper-wrapper">
+            <div class="testimonials__card swiper-slide">
+              <img
+                src="img/testimonial1.png"
+                alt=""
+                class="testimonials__img"
+              />
+
+              <h3 class="testimonials__name">Jhon</h3>
+              <p class="testimonials__description">
+                good job, all spects of the projects
+              </p>
+            </div>
+
+            <div class="testimonials__card swiper-slide">
+              <img
+                src="img/testimonial2.png"
+                alt=""
+                class="testimonials__img"
+              />
+
+              <h3 class="testimonials__name">Alexia</h3>
+              <p class="testimonials__description">
+                good job, all spects of the projects
+              </p>
+            </div>
+
+            <div class="testimonials__card swiper-slide">
+              <img
+                src="img/testimonial3.png"
+                alt=""
+                class="testimonials__img"
+              />
+
+              <h3 class="testimonials__name">Romani</h3>
+              <p class="testimonials__description">
+                good job, all spects of the projects
+              </p>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <!--====================CONTACT=====================-->
+      <section class="contact section" id="contact">
+        <span class="section__subtitle">Get in touch</span>
+        <h2 class="section__title">Contact Me</h2>
+
+        <div class="contact__container container grid">
+          <div class="contanct__content">
+            <h3 class="contact__title">Talk to Me</h3>
+
+            <div class="contact__info">
+              <div class="contact__card">
+                <i class='bx bx-mail-send contact__card-icon'></i>
+                <h3 class="contact__card-title">Email</h3>
+                <span class="contact__card-data">laltot@mail.ru</span>
+
+                <a href="mailto:examplemail@correo.com" target="_blank" class="contact__button">
+                  Write me<i class='bx bx-right-arrow-alt contact__button-icon'></i>
+                </a>
+              </div>
+
+              <div class="contact__card">
+                <i class='bx bxl-telegram contact__card-icon'></i>
+                <h3 class="contact__card-title">Telegram</h3>
+                <span class="contact__card-data">@tmlvv</span>
+
+                <a href="https://t.me/tmlvv" target="_blank" class="contact__button">
+                  Write me<i class='bx bx-right-arrow-alt contact__button-icon'></i>
+                </a>
+              </div>
+
+              <div class="contact__card">
+                <i class='bx bxl-whatsapp contact__card-icon'></i>
+                <h3 class="contact__card-title ">Whatsapp</h3>
+                <span class="contact__card-data">+7(904)122-83-17</span>
+
+                <a href="https://api.whatsapp.com/send?phone=79041228316&text=Hi" target="_blank" class="contact__button">
+                  Write me<i class='bx bx-right-arrow-alt contact__button-icon'></i>
+                </a>
+              </div>
+              
+            </div>
+          </div>
+
+          <div class="contanct__content">
+            <h3 class="contact__title">Write me your project</h3>
+
+            <form action="" class="contact__form">
+              <div class="contact__form-div">
+                <label for="" class="contact__form-tag">Names</label>
+                <input type="text" placeholder="Insert your name" class="contact__form-input">
+              </div>
+
+              <div class="contact__form-div">
+                <label for="" class="contact__form-tag">Mail</label>
+                <input type="email" placeholder="Insert your email" class="contact__form-input">
+              </div>
+
+              <div class="contact__form-div contact__form-area">
+                <label for="" class="contact__form-tag">Project</label>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Write your project" class="contact__form-input"></textarea>
+              </div>
+
+              <button class="button">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!--====================FOOTER=====================-->
+      <footer class="footer">
+
+        <div class="footer__container container">
+          <h1 class="footer__title"> Namot</h1>
+
+            <ul class="footer__list">
+              <li>
+                <a href="#about" class="footer__link">About</a>
+              </li>
+              <li>
+                <a href="#work" class="footer__link">Work</a>
+              </li>
+              <li>
+                <a href="#testimonial" class="footer__link">Testimonial</a>
+              </li>
+            </ul>
+
+            <ul class="footer__social">
+              <a href="#" target="_blank" class="footer__social-link">
+                <i class='bx bxl-telegram'></i>
+              </a>
+
+              <a href="#" target="_blank" class="footer__social-link">
+                <i class='bx bxl-meta'></i>
+              </a>
+            </ul>
+          <span class="footer__copy">
+            &#169; Namot. All rigths reserved
+          </span>
+        </div>
+      </footer>
+
     </main>
+
+    <script src="./js/scrollreveal.min.js"></script>
+
+    <script src="./js/swiper-bundle.min.js"></script>
+
+    <script src="./js/mixitup.min.js"></script>
 
     <script src="./js/main.js"></script>
   </body>

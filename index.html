@@ -27,11 +27,6 @@
               </a>
             </li>
             <li class="nav__item">
-              <a href="#about" class="nav__link">
-                <i class="bx bx-user"></i>
-              </a>
-            </li>
-            <li class="nav__item">
               <a href="#skills" class="nav__link">
                 <i class="bx bx-book"></i>
               </a>
@@ -48,34 +43,22 @@
             </li>
           </ul>
         </div>
-        <i class="bx bx-moon change-theme" id="theme-button"></i>
+        <div class="rignt__menu">
+          <a href="" value="ru" id="lang-ru" class="button-ghost-lang translate">ru</a>
+          <a href="" value="en" id="lang-en" class="button-ghost-lang translate">en</a>
+          <i class="bx bx-moon change-theme" id="theme-button"></i>
+        </div>
       </nav>
     </header>
 
     <main class="main">
-      <!--====================HOME=====================-->
-      <section class="home section" id="home">
-        <div class="home__container container grid">
-          <div class="home__date">
-            <span class="home__greeting">Good afternoon, i`m</span>
-            <h1 class="home__name">Tomilov Anton</h1>
-            <h3 class="home__education">Frontend Developer</h3>
-              <!-- <div class="home__buttons">
-                <a href="#contact" class="button button-ghost">Contact me</a>
-                <a href="#about" class="button">About me</a>
-              </div> -->
-          </div>
-          
-        </div>
-      </section>
-
       <!--====================ABOUT=====================-->
-      <section class="about section" id="about">
-        <span class="section__subtitle">My Intro</span>
-        <h2 class="section__title">About Me</h2>
+      <section class="about section" id="home">
+        <span class="section__subtitle lng-hi">Hello, i`m</span>
+        <h2 class="section__title lng-name">Tomilov Anton</h2>
 
         <div class="about__container container grid">
-          <img src="img/about.jpg" alt="" class="about__img" />
+          <img src="img/perfil.jpg" alt="" class="about__img" />
 
           <div class="about__data">
             <div class="about__info">
@@ -101,7 +84,7 @@
               I have years of experience and many are happe with the projects
               carried out.
             </p>
-            
+
             <div class="home__social">
               <a href="#contact" class="button">Contact Me</a>
               <a href="" target="_blank" class="home__social-link">
@@ -110,7 +93,6 @@
               <a href="" target="_blank" class="home__social-link">
                 <i class="bx bxl-telegram"></i>
               </a>
-              
             </div>
           </div>
         </div>
@@ -468,35 +450,52 @@
 
             <div class="contact__info">
               <div class="contact__card">
-                <i class='bx bx-mail-send contact__card-icon'></i>
+                <i class="bx bx-mail-send contact__card-icon"></i>
                 <h3 class="contact__card-title">Email</h3>
                 <span class="contact__card-data">laltot@mail.ru</span>
 
-                <a href="mailto:examplemail@correo.com" target="_blank" class="contact__button">
-                  Write me<i class='bx bx-right-arrow-alt contact__button-icon'></i>
+                <a
+                  href="mailto:examplemail@correo.com"
+                  target="_blank"
+                  class="contact__button"
+                >
+                  Write me<i
+                    class="bx bx-right-arrow-alt contact__button-icon"
+                  ></i>
                 </a>
               </div>
 
               <div class="contact__card">
-                <i class='bx bxl-telegram contact__card-icon'></i>
+                <i class="bx bxl-telegram contact__card-icon"></i>
                 <h3 class="contact__card-title">Telegram</h3>
                 <span class="contact__card-data">@tmlvv</span>
 
-                <a href="https://t.me/tmlvv" target="_blank" class="contact__button">
-                  Write me<i class='bx bx-right-arrow-alt contact__button-icon'></i>
+                <a
+                  href="https://t.me/tmlvv"
+                  target="_blank"
+                  class="contact__button"
+                >
+                  Write me<i
+                    class="bx bx-right-arrow-alt contact__button-icon"
+                  ></i>
                 </a>
               </div>
 
               <div class="contact__card">
-                <i class='bx bxl-whatsapp contact__card-icon'></i>
-                <h3 class="contact__card-title ">Whatsapp</h3>
+                <i class="bx bxl-whatsapp contact__card-icon"></i>
+                <h3 class="contact__card-title">Whatsapp</h3>
                 <span class="contact__card-data">+7(904)122-83-17</span>
 
-                <a href="https://api.whatsapp.com/send?phone=79041228316&text=Hi" target="_blank" class="contact__button">
-                  Write me<i class='bx bx-right-arrow-alt contact__button-icon'></i>
+                <a
+                  href="https://api.whatsapp.com/send?phone=79041228316&text=Hi"
+                  target="_blank"
+                  class="contact__button"
+                >
+                  Write me<i
+                    class="bx bx-right-arrow-alt contact__button-icon"
+                  ></i>
                 </a>
               </div>
-              
             </div>
           </div>
 
@@ -506,17 +505,32 @@
             <form action="" class="contact__form">
               <div class="contact__form-div">
                 <label for="" class="contact__form-tag">Names</label>
-                <input type="text" placeholder="Insert your name" class="contact__form-input">
+                <input
+                  type="text"
+                  placeholder="Insert your name"
+                  class="contact__form-input"
+                />
               </div>
 
               <div class="contact__form-div">
                 <label for="" class="contact__form-tag">Mail</label>
-                <input type="email" placeholder="Insert your email" class="contact__form-input">
+                <input
+                  type="email"
+                  placeholder="Insert your email"
+                  class="contact__form-input"
+                />
               </div>
 
               <div class="contact__form-div contact__form-area">
                 <label for="" class="contact__form-tag">Project</label>
-                <textarea name="" id="" cols="30" rows="10" placeholder="Write your project" class="contact__form-input"></textarea>
+                <textarea
+                  name=""
+                  id=""
+                  cols="30"
+                  rows="10"
+                  placeholder="Write your project"
+                  class="contact__form-input"
+                ></textarea>
               </div>
 
               <button class="button">Send Message</button>
@@ -527,37 +541,33 @@
 
       <!--====================FOOTER=====================-->
       <footer class="footer">
-
         <div class="footer__container container">
-          <h1 class="footer__title"> Namot</h1>
+          <h1 class="footer__title">Namot</h1>
 
-            <ul class="footer__list">
-              <li>
-                <a href="#about" class="footer__link">About</a>
-              </li>
-              <li>
-                <a href="#work" class="footer__link">Work</a>
-              </li>
-              <li>
-                <a href="#testimonial" class="footer__link">Testimonial</a>
-              </li>
-            </ul>
+          <ul class="footer__list">
+            <li>
+              <a href="#about" class="footer__link">About</a>
+            </li>
+            <li>
+              <a href="#work" class="footer__link">Work</a>
+            </li>
+            <li>
+              <a href="#testimonial" class="footer__link">Testimonial</a>
+            </li>
+          </ul>
 
-            <ul class="footer__social">
-              <a href="#" target="_blank" class="footer__social-link">
-                <i class='bx bxl-telegram'></i>
-              </a>
+          <ul class="footer__social">
+            <a href="#" target="_blank" class="footer__social-link">
+              <i class="bx bxl-telegram"></i>
+            </a>
 
-              <a href="#" target="_blank" class="footer__social-link">
-                <i class='bx bxl-meta'></i>
-              </a>
-            </ul>
-          <span class="footer__copy">
-            &#169; Namot. All rigths reserved
-          </span>
+            <a href="#" target="_blank" class="footer__social-link">
+              <i class="bx bxl-meta"></i>
+            </a>
+          </ul>
+          <span class="footer__copy"> &#169; Namot. All rigths reserved </span>
         </div>
       </footer>
-
     </main>
 
     <script src="./js/scrollreveal.min.js"></script>
@@ -565,6 +575,8 @@
     <script src="./js/swiper-bundle.min.js"></script>
 
     <script src="./js/mixitup.min.js"></script>
+
+    <script src="./js/jquery.js"></script>
 
     <script src="./js/main.js"></script>
   </body>

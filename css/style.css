@@ -235,6 +235,10 @@ body.light-theme {
 
 }
 
+.language__ru{
+    box-sizing: content-box;
+}
+
 .nav {
     height: var(--header-height);
     display: flex;
@@ -423,6 +427,27 @@ body.light-theme {
     background-color: transparent;
     border: 2px solid var(--first-color);
     color: var(--first-color);
+}
+
+.rignt__menu{
+    column-gap: 1rem;
+    display: flex;
+    align-items: center;
+    
+}
+
+.button-ghost-lang {
+    column-gap: 1rem;
+    padding: 0.1rem 0.4rem;
+    background-color: transparent;
+    border: 2px solid var(--first-color);
+    border-radius: .25rem;
+    color: var(--first-color);
+}
+
+.button-ghost-lang:hover {
+    background-color: var(--first-color-alt);
+    color: var(--body-color);
 }
 
 /*=============== ABOUT ===============*/

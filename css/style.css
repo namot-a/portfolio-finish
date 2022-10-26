@@ -109,7 +109,6 @@ img {
     font-size: 1.25rem;
     cursor: pointer;
     transition: .3s;
-
 }
 
 .change-theme:hover {
@@ -232,7 +231,6 @@ body.light-theme {
     background-color: var(--body-color);
     z-index: var(--z-fixed);
     transition: .4s;
-
 }
 
 .language__ru{
@@ -244,19 +242,16 @@ body.light-theme {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .nav_logo {
     color: var(--first-color);
     font-weight: var(--font-medium);
     transition: .4s;
-
 }
 
 .nav__logo:hover {
     color: var(--first-color-alt);
-
 }
 
 .nav__menu {
@@ -275,7 +270,6 @@ body.light-theme {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .nav__link {
@@ -284,7 +278,6 @@ body.light-theme {
     padding: 0.4rem;
     display: flex;
     border-radius: 5rem;
-
 }
 
 /* Active link */
@@ -295,7 +288,6 @@ body.light-theme {
             hsla(var(--first-hue), var(--sat), var(--lig), .2));
     box-shadow: 0 0 16px hsla(var(--first-hue), var(--sat), var(--lig), .4);
     color: var(--title-color);
-
 }
 
 .scroll-header {
@@ -312,27 +304,23 @@ body.light-theme {
 
 .home__date {
     text-align: center;
-
 }
 
 .home__greeting,
 .home__education {
     font-size: var(--small-font-size);
     font-weight: var(--font-medium);
-
 }
 
 .home__greeting {
     display: block;
     color: var(--title-color);
     margin-bottom: .25rem;
-
 }
 
 .home__education {
     color: var(--text-color);
     margin-bottom: 2.5rem;
-
 }
 
 .home__name {
@@ -341,7 +329,6 @@ body.light-theme {
 
 .home__img {
     width: 160px;
-
 }
 
 .home__handle {
@@ -363,7 +350,6 @@ body.light-theme {
     justify-content: center;
     align-items: center;
     gap: 1.5rem;
-
 }
 
 .home__social {
@@ -381,7 +367,6 @@ body.light-theme {
     display: flex;
     font-size: 2.25rem;
     transition: .4s;
-
 }
 
 .home__social-link:hover {
@@ -415,7 +400,6 @@ body.light-theme {
     border-radius: .5rem;
     font-weight: var(--font-medium);
     transition: .4s;
-
 }
 
 .button:hover {
@@ -433,7 +417,6 @@ body.light-theme {
     column-gap: 1rem;
     display: flex;
     align-items: center;
-    
 }
 
 .button-ghost-lang {
@@ -459,7 +442,6 @@ body.light-theme {
     width: 220px;
     border-radius: 1.5rem;
     justify-self: center;
-
 }
 
 .about__data {
@@ -471,21 +453,18 @@ body.light-theme {
     grid-template-columns: repeat(3, 1fr);
     gap: .5rem;
     margin-bottom: 2rem;
-
 }
 
 .about__box {
     background-color: var(--container-color);
     border-radius: .75rem;
     padding: .75rem .5rem;
-
 }
 
 .about__icon {
     font-size: 1.5rem;
     color: var(--first-color);
     margin-bottom: .5rem;
-
 }
 
 .about__title {
@@ -511,7 +490,6 @@ body.light-theme {
     background-color: var(--container-color);
     padding: 1.5rem;
     border-radius: 1.25rem;
-
 }
 
 .skills__title {
@@ -520,7 +498,6 @@ body.light-theme {
     color: var(--first-color);
     text-align: center;
     margin-bottom: 1.5rem;
-
 }
 
 .skills__box {
@@ -561,7 +538,6 @@ body.light-theme {
     grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
     padding-top: 1rem;
-
 }
 
 .services__card {
@@ -586,7 +562,6 @@ body.light-theme {
 
 .services__button:hover .services__icon {
     transform: translateX(.25rem);
-
 }
 
 .services__icon {
@@ -613,51 +588,42 @@ body.light-theme {
     background-color: var(--body-color);
     padding: 4.5rem 1.5rem 2.5rem;
     border-radius: 1.5rem;
-
 }
 
 .services__modal-title,
 .services__modal-description {
     text-align: center;
-
 }
 
 .services__modal-title {
-
     font-size: var(--h3-font-size);
     color: var(--first-color);
     margin-bottom: 1rem;
-
 }
 
 .services__modal-description {
     font-size: var(--small-font-size);
     margin-bottom: 2rem;
-
 }
 
 .services__modal-list {
     display: grid;
     row-gap: .75rem;
-
 }
 
 .services__modal-item {
     display: flex;
     align-items: flex-start;
     column-gap: .5rem;
-
 }
 
 .services__modal-icon {
     font-size: 1.5rem;
     color: var(--first-color);
-
 }
 
 .services__modal-info {
     font-size: var(--small-font-size);
-
 }
 
 .services__modal-close {
@@ -675,12 +641,10 @@ body.light-theme {
     visibility: visible;
 }
 
-
 /*=============== WORK ===============*/
 
 .work__container {
     padding-top: 1rem;
-
 }
 
 .work__filters {
@@ -703,13 +667,11 @@ body.light-theme {
     border-color: var(--container-color);
     padding: 1rem;
     border-radius: 1rem;
-
 }
 
 .work__img {
     border-radius: 1rem;
     margin-bottom: 0.75rem;
-
 }
 
 .work__title {
@@ -737,40 +699,15 @@ body.light-theme {
 }
 
 /* Active item work*/
+
 .active-work {
     background-color: var(--first-color);
     color: var(--body-color);
 }
 
-/*=============== TESTIMONIAL ===============*/
-
-.testimonials__card {
-    background-color: var(--container-color);
-    padding: 1.25rem 1.5rem;
-    border-radius: 1.5rem;
-    margin-bottom: 3rem;
-}
-
-.testimonials__img {
-    width: 60px;
-    border-radius: 3rem;
-    margin-bottom: 1rem;
-}
-
-.testimonials__name {
-    font-size: var(--normal-font-size);
-    font-weight: var(--font-medium);
-    margin-bottom: 0.25rem;
-}
-
-.testimonials__description {
-    font-size: var(--small-font-size);
-}
-
 /* Swiper class */
 .swiper-pagination-bullet {
     background-color: var(--text-color-light);
-
 }
 
 .swiper-pagination-bullet-active {
@@ -792,7 +729,6 @@ body.light-theme {
 .contact__info {
     display: grid;
     gap: 1rem;
-
 }
 
 .contact__card {
@@ -800,7 +736,6 @@ body.light-theme {
     padding: 1rem;
     border-radius: .75rem;
     text-align: center;
-
 }
 
 .contact__card-icon {
@@ -831,12 +766,10 @@ body.light-theme {
     align-items: center;
     justify-content: center;
     column-gap: .25rem;
-
 }
 
 .contact__button:hover .contact__button-icon {
     transform: translateX(.25rem);
-
 }
 
 .contact__button-icon {
@@ -848,7 +781,6 @@ body.light-theme {
     position: relative;
     margin-bottom: 2rem;
     height: 4rem;
-
 }
 
 .contact__form-input {
@@ -864,7 +796,6 @@ body.light-theme {
     padding: 1.5rem;
     border-radius: .75rem;
     z-index: 1;
-
 }
 
 .contact__form-tag {
@@ -885,12 +816,10 @@ contact__form-area textarea {
     resize: none;
 }
 
-
 /*=============== FOOTER ===============*/
 
 .footer {
     background-color: var(--first-color);
-
 }
 
 .footer__container {
@@ -935,7 +864,6 @@ contact__form-area textarea {
     color: var(--container-color);
     text-align: center;
     font-size: var(--smaller-font-size);
-
 }
 
 /*=============== SCROLL BAR ===============*/
@@ -955,8 +883,8 @@ contact__form-area textarea {
     background-color: hsl(var(--second-hue), 8%, 20%);
 }
 
-/*=============== BREAKPOINTS ===============*/
 /* For small devices */
+
 @media screen and (max-width:320px) {
 
     .home__social-link {
@@ -987,7 +915,6 @@ contact__form-area textarea {
 
     .skills__box {
         column-gap: 1rem;
-
     }
 
     .skills__name {
@@ -1035,7 +962,6 @@ contact__form-area textarea {
 
     .skills__container {
         justify-content: center;
-
     }
 
     .skills__content {
@@ -1070,7 +996,6 @@ contact__form-area textarea {
     }
 
     .contact__form {
-
         width: 360px;
         margin: 0 auto;
     }
@@ -1086,12 +1011,9 @@ contact__form-area textarea {
         justify-content: center;
         column-gap: 3rem;
     }
-
-
 }
 
 /* For large devices */
-
 
 @media screen and (min-width: 992px) {
 
@@ -1116,13 +1038,10 @@ contact__form-area textarea {
     .home__handle {
         width: 290px;
         height: 400px;
-
-
     }
 
     .home__img {
         width: 220px;
-
     }
 
     .home__social-link {
@@ -1165,13 +1084,11 @@ contact__form-area textarea {
     .skills__container {
         grid-template-columns: repeat(2, 350px);
         column-gap: 3rem;
-
     }
 
     .services__container {
         grid-template-columns: repeat(3, 192px);
         column-gap: 3rem;
-
     }
 
     .services__card {
@@ -1194,15 +1111,6 @@ contact__form-area textarea {
         margin-bottom: 0.5rem;
     }
 
-    .testimonials__container {
-        width: 750px;
-
-    }
-
-    .testimonials__card {
-        padding: 1.5rem 2rem;
-    }
-
     .contact__container {
         column-gap: 6rem;
     }
@@ -1212,7 +1120,4 @@ contact__form-area textarea {
         padding: .4rem;
         border-radius: .5rem;
     }
-
-
-
 }

@@ -47,7 +47,6 @@ function activeWork() {
 
 linkWork.forEach(l => l.addEventListener('click', activeWork))
 
-
 let swiperTestimonials = new Swiper(".testimonials__container", {
     spaceBetween: 24,
     loop: true,
@@ -112,7 +111,6 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
-
 
 const sr = ScrrollReveal({
     origin: 'top',

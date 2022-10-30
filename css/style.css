@@ -988,6 +988,9 @@ contact__form-area textarea {
 
     .work__img {
         width: 295px;
+        /* height: 100%; */
+        background-size: cover;
+
     }
 
     .contact__info {

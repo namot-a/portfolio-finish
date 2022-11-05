@@ -90,6 +90,7 @@ ul {
 
 a {
     text-decoration: none;
+    color: #fff;
 }
 
 button {
@@ -218,7 +219,7 @@ body.light-theme {
 
 .section__subtitle {
     display: block;
-    font-size: var(--smaller-font-size);
+    font-size: var(--small-font-size);
     color: var(--text-color-light);
 }
 
@@ -244,8 +245,8 @@ body.light-theme {
     align-items: center;
 }
 
-.nav_logo {
-    color: var(--first-color);
+.nav_logo a{
+    color: var(--first-color-alt);
     font-weight: var(--font-medium);
     transition: .4s;
 }
